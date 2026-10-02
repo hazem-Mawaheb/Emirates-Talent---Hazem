@@ -1,0 +1,27 @@
+<form action="https://formspree.io" method="POST">
+    <!-- حقل مخفي لتعرف في إيميلك أن هذا الطلب قادم من شركة -->
+    <input type="hidden" name="نوع_الطلب" value="شركة / منشأة">
+    
+    <label>اسم الشركة / المنشأة *</label>
+    <input type="text" name="اسم_الشركة" required placeholder="أدخل اسم الشركة">
+
+    <label>رقم الموبايل للتواصل *</label>
+    <input type="tel" name="الموبايل" required placeholder="050XXXXXXXX">
+
+    <label>رقم الواتساب *</label>
+    <input type="tel" name="الواتساب" required placeholder="050XXXXXXXX">
+
+    <label>البريد الإلكتروني *</label>
+    <input type="email" name="_replyto" required placeholder="example@domain.com">
+
+    <label>موقع العمل الفعلي داخل الدولة *</label>
+    <input type="text" name="موقع_العمل" required placeholder="مثال: دبي، الشارقة">
+
+    <label>نوع العمالة والمسمى الوظيفي *</label>
+    <input type="text" name="التفاصيل_والوظيفة" required placeholder="مثال: عمالة ماهرة - مهندس مدني">
+
+    <label>العدد المطلوب *</label>
+    <input type="number" name="العدد_المطلوب" required min="1">
+
+    <button type="submit" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer;">إرسال الطلب ⬅</button>
+</form>
